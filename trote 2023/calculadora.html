@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SiteTroteSolidarioUniFACEF-main/trote 2023/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<div id="container">
+    <div id="initialpage">
+      <a href="index.html">🠔 Voltar</a>
+    </div>
+<div id="container">
+    <div id="profile">
+        <img src="assets/logo2-removebg-preview.png"
+            alt="Trote solidário"/>    </div>
+    <div id="switch" onclick="trocaSwitch()">
+        <button> </button>
+        <span> </span>
+    </div>
+<body>
+    <section>
+        <form class="calc">
+            <form>
+                <label for="sangue">Informe o total de doações de sangue:</label>
+                <input type="number" id="blood" name="blood">
+                <label for="kits">Informe o total de kits entregues:</label>
+                <input type="number" id="kits" name="kits">
+                <label for="kit">Kit alimentação (5 kg):</label>
+                <input type="number" id="kit" name="kit">
+                <label for="suplemento">Suplemento alimentar:</label>
+                <input type="number" id="supplement" name="supplement">
+                <label for="arroz">Pacote de arroz (1 kg):</label>
+                <input type="number" id="rice" name="rice">
+                <label for="arroz2">Pacote de arroz (5 kg):</label>
+                <input type="number" id="rice2" name="rice2">
+                <label for="feijao">Pacote de feijão (1 kg):</label>
+                <input type="number" id="beans" name="beans">
+                <label for="feijao2">Pacote de feijão (2 kg):</label>
+                <input type="number" id="beans2" name="beans2">
+                <label for="macarrao">Pacote de macarrão (500g):</label>
+                <input type="number" id="pasta" name="pasta">
+                <label for="oleo">Óleo (900mL):</label>
+                <input type="number" id="oil" name="oil">
+                <button type="button" onclick="totalPoints()">Calcular pontuação</button>
+        <p id="totalPoints"></p>
+    </section>
+<script src="calculadora.js"></script>
+</body>
+</html>
